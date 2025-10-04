@@ -1,0 +1,12 @@
+# robots.txt for GymWasooli
+
+User-agent: *
+Allow: /
+
+# Block development/build system files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /@vite/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
