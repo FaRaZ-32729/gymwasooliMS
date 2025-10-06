@@ -32,10 +32,11 @@ const RequestDemo = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10"
+                // grid-cols-1 md:grid-cols-2 gap-12
+                className="max-w-6xl mx-auto grid justify-center items-center relative z-10"
             >
                 {/* Left - Image */}
-                <motion.div
+                {/* <motion.div
                     whileHover={{ scale: 1.03 }}
                     transition={{ duration: 0.3 }}
                     className="relative rounded-3xl overflow-hidden shadow-2xl"
@@ -46,7 +47,7 @@ const RequestDemo = () => {
                         className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-all"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Right - Form */}
                 <div className="bg-[#1F2939] border border-[#D94B2B]/30 rounded-3xl p-8 md:p-10 shadow-2xl space-y-6">
